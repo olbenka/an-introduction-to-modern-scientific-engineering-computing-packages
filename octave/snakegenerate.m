@@ -11,26 +11,27 @@ function gensnake = snakegenerate(n)
       idx = idx + 1;
       gensnake(y,x) = idx;
     endwhile
-    if (y == 0 && x < n)
+    if (y == 1 && x < n)
       x = x+1;
     else
       y = y+1;
     endif
     idx = idx + 1;
     gensnake(y,x) = idx;
-  endwhile
-  if (idx != n*n)
-    while (y < n && x > 1)
-      y = y + 1;
-      x = x - 1;
+    if (idx != n*n)
+      while (y < n && x > 1)
+        y = y + 1;
+        x = x - 1;
+        idx = idx + 1;
+        gensnake(y,x) = idx;
+      endwhile
+      if (x == 1 && y < n)
+        y = y+1;
+      else
+        x = x+1;
+      endif
       idx = idx + 1;
-    endwhile
-    if (x == 0 && y < n)
-      y = y+1;
-    else
-      x = x+1;
+      gensnake(y,x) = idx;
     endif
-    idx = idx + 1;
-    gensnake(y,x) = idx;
-  endif
+  endwhile
 end
