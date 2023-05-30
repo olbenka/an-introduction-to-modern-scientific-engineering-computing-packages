@@ -9,5 +9,5 @@
 2. Все .nb файлы с пар 
 
 # Python
-Первая пара была вводной, файл не сохранился тк перешла из PyCharm в colaboratory
+Первая пара была вводной, файл не сохранился тк перешла из PyCharm в colaboratory. Остальные задания (система Лоренса, работа с numpy и pandas) в гугл диске
 https://drive.google.com/drive/folders/1Ju8TZQ1OnwuiWvUvnVYfbZqgCSw0VeeJ?usp=sharing
