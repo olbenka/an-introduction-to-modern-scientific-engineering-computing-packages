@@ -1,5 +1,11 @@
 # Octave
+## По заданиям: 
+### Функции
+1. matgenerate.m - шахматная матрица
+2.  matchange.m - чередование
+3.  snakegenerate.m - змейка
 
+## Описания файлов
 1. lesson1.m работа в командном окне (матрицы)
 2. lesson2.m работа в командном окне (матрицы)
 3. matgenerate.m, matchange.m, circgenerate.m, snakegenerate.m - задания 1-4, которые были на 3-4 паре
