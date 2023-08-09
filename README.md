@@ -1,6 +1,8 @@
 # 4 semester
 Две папки с разными кодами
 
+# Общий проект
+https://github.com/annamitrofanovaa/project_covid19
 # Octave
 Все .m файлы с пар
 ## Описания файлов
